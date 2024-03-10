@@ -2,32 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'bakilda';
+  src: url('/fonts/bakilda/bakilda-histori.ttf') format('truetype');
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+@font-face {
+  font-family: 'ValueSansRegular';
+  src: url('/fonts/ValueSansPro/ValueSansPro-Regular.ttf') format('truetype');
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: 'ValueSansMedium';
+  src: url('/fonts/ValueSansPro/ValueSansPro-Medium.ttf') format('truetype');
+}
+  
+@font-face {
+  font-family: 'AbrilDisplayBlack';
+  src: url('/fonts/Abril/Abril_Display_Regular.otf') format('otf');
+}
+@font-face {
+  font-family: 'AbrilDisplaySemibold';
+  src: url('/fonts/Abril/Abril_Display_SemiBold.otf') format('otf');
+}
+@font-face {
+  font-family: 'Lemonada';
+  src: url('/fonts/Lemonada-VariableFont_wght.ttf') format('truetype');
 }
