@@ -32,7 +32,7 @@ const ChoseUs = () => {
                             </div>
                         </div>
                         <p className='text-[#270A05] text-[16px] opacity-60 font-ValueSansRegular'>Your choice to savor our coffee is an invitation to experience the epitome of craftsmanship, flavor, and dedication.</p>
-                        <button className='text-[#86371C] font-medium text-[16px] border border-[#86371C] 
+                        <button className='text-[#86371C] font-ValueSansRegular font-semibold text-[16px] border border-[#86371C] 
                         rounded-[12px] py-[18px] px-[30px] mt-[50px]'>Explore Our Menus</button>
                     </div>
                     <div>

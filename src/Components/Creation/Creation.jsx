@@ -1,5 +1,5 @@
 "use client"
-import './Creation.css'
+import  '../../app/styles/Creation.css'
 import React, { useState } from 'react';
 
 const Creation = () => {
@@ -65,7 +65,7 @@ const Creation = () => {
                     ))}
                 </div>
                 <div className="mt-4">
-                <div className="grid-wrapper mt-4">
+                <div className="gridWrapper mt-4">
                     {tabs[activeTab].images.map((image, index) => (
                         <img 
                             key={index} 

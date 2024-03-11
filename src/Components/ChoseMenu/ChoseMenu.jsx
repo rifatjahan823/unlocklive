@@ -18,13 +18,11 @@ const ChoseMenu = () => {
         <h2 className="text-[#270A05] font-bakilda sm:text-[44px] text-[6.5vw] text-center">
           Unlocklive Coffee Menu
         </h2>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-5 my-[80px]">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5 my-[80px] ">
           <div>
             {/* ------ */}
             <div
-              className="grid sm:grid-cols-[14%_80%] sm:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[35px] 
-                   p-[15px]  
-                    rounded-[20px]"
+              className="grid 2xl:grid-cols-[14%_80%] 2xl:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[25px] pl-[15px] py-[15px] pr-[0px] rounded-[20px]"
             >
               <div className="w-[84px] h-[84px] border-dashed border-2 border-[#270A05] rounded-full flex items-center justify-center">
                 <div className="w-[80px] h-[80px] bg-[#E9E7E6] rounded-full flex items-center justify-center">
@@ -46,9 +44,10 @@ const ChoseMenu = () => {
                     There are many variations of passages Lorem Ipsum form
                   </p>
                 </div>
-              <p className="border-dotted border-t-4 mx-2 2xl:w-[32%] w-[18%] mt-[8px] "></p>
+                <p className="border-dotted border-t-4 mx-2 w-[150px] 2xl:w-[240px] min-[1900px]:w-52 
+              min-[1600px]:w-72 mt-2 "></p>
              <div>
-             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex mt-[-10px]">
+             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex mt-[-28px]">
                 <div className="bg-[#86371C] w-[58px] h-[58px] rounded-full flex items-center justify-center ">
                   <p className="text-white">$10</p>
                 </div>
@@ -59,9 +58,8 @@ const ChoseMenu = () => {
             </div>
             {/* ------ */}
             <div
-              className="grid sm:grid-cols-[14%_80%] sm:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[35px] 
-                   p-[15px]  
-                    rounded-[20px]"
+              className="grid 2xl:grid-cols-[14%_80%] 2xl:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[25px] pl-[15px] py-[15px] pr-[0px] 
+                    rounded-[20px] mt-[30px]"
             >
               <div className="w-[84px] h-[84px] border-dashed border-2 border-[#270A05] rounded-full flex items-center justify-center">
                 <div className="w-[80px] h-[80px] bg-[#E9E7E6] rounded-full flex items-center justify-center">
@@ -83,9 +81,10 @@ const ChoseMenu = () => {
                     There are many variations of passages Lorem Ipsum form
                   </p>
                 </div>
-              <p className="border-dotted border-t-4 mx-2 2xl:w-[32%] w-[18%] mt-[8px] "></p>
+                <p className="border-dotted border-t-4 mx-2 w-[150px] 2xl:w-[240px] min-[1900px]:w-52 
+              min-[1600px]:w-72 mt-2"></p>
              <div>
-             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex mt-[-10px]">
+             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex mt-[-28px]">
                 <div className="bg-[#E9E7E6] w-[58px] h-[58px] rounded-full flex items-center justify-center ">
                   <p className="text-black">$10</p>
                 </div>
@@ -98,8 +97,7 @@ const ChoseMenu = () => {
           <div>
             {/* ------ */}
             <div
-              className="grid sm:grid-cols-[14%_80%] sm:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[35px] 
-                   p-[15px]  
+              className="grid 2xl:grid-cols-[14%_80%] 2xl:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[25px] pl-[15px] py-[15px] pr-[0px]   
                     rounded-[20px]"
             >
               <div className="w-[84px] h-[84px] border-dashed border-2 border-[#270A05] rounded-full flex items-center justify-center">
@@ -122,9 +120,10 @@ const ChoseMenu = () => {
                     There are many variations of passages Lorem Ipsum form
                   </p>
                 </div>
-              <p className="border-dotted border-t-4 mx-2 2xl:w-[32%] w-[18%] mt-[8px] "></p>
+                <p className="border-dotted border-t-4 mx-2 w-[150px] 2xl:w-[240px] min-[1900px]:w-52 
+              min-[1600px]:w-72 mt-2 "></p>
              <div>
-             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex mt-[-10px]">
+             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex mt-[-28px]">
                 <div className="bg-[#E9E7E6] w-[58px] h-[58px] rounded-full flex items-center justify-center ">
                   <p className="text-black">$10</p>
                 </div>
@@ -135,9 +134,7 @@ const ChoseMenu = () => {
             </div>
             {/* ------ */}
             <div
-              className="grid sm:grid-cols-[14%_80%] sm:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[35px] 
-                   p-[15px]  
-                    rounded-[20px]"
+              className="grid 2xl:grid-cols-[14%_80%] 2xl:gap-[6%] grid-cols-[8%_70%] gap-16 items-center  border xl:py-[30px] xl:px-[25px] pl-[15px] py-[15px] pr-[0px] rounded-[20px] mt-[30px]"
             >
               <div className="w-[84px] h-[84px] border-dashed border-2 border-[#270A05] rounded-full flex items-center justify-center">
                 <div className="w-[80px] h-[80px] bg-[#E9E7E6] rounded-full flex items-center justify-center">
@@ -150,18 +147,19 @@ const ChoseMenu = () => {
                 </div>
               </div>
               <div className=""> 
-                <h3 className="text-[#270A05] min-[1650px]:text-[24px] md:text-[1.3vw] font-AbrilDisplayBlack font-semibold">
-                  Coconut Cream Delight (Summer)
+                <h3 className="text-[#270A05] min-[1650px]:text-[24px] md:text-[1.3vw] font-AbrilDisplayBlack font-semibold ">
+                  Coconut Cream Delight <br className="2xl:hidden block"></br> (Summer)
                 </h3>
-             <div className="flex ">
+             <div className="flex justify-between">
              <div className="">
                   <p className="text-[#270A05] xl:text-[14px] text-[12px] opacity-70 font-ValueSansRegular">
                     There are many variations of passages Lorem Ipsum form
                   </p>
                 </div>
-              <p className="border-dotted border-t-4 mx-2 2xl:w-[32%] w-[18%] mt-[8px] "></p>
-             <div>
-             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex mt-[-10px]">
+              <p className="border-dotted border-t-4 mx-2 w-[150px] 2xl:w-[240px] min-[1900px]:w-52 
+              min-[1600px]:w-72 mt-2 "></p>
+             <div className="">
+             <div className="border-dashed border-2 border-[#270A05] rounded-full w-[65px] h-[65px] items-center justify-center flex lg:mt-[-28px] min-[422px]:mt-[-18px]">
                 <div className="bg-[#E9E7E6] w-[58px] h-[58px] rounded-full flex items-center justify-center ">
                   <p className="text-black">$10</p>
                 </div>

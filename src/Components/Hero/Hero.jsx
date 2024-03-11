@@ -3,11 +3,11 @@
 // import Swiper core and required modules
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import  '../../app/styles/Hero.css'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./Hero.css";
 import coffeMug from "../../assests/coffeMug.png";
 import avater1 from "../../assests/sliderAvater-1.png";
 import avater2 from "../../assests/sliderAvater-2.png";
@@ -19,7 +19,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" relative md:py-[100px] py-[90px] overflow-hidden hero_section">
+    <div className="heroSection relative md:py-[100px] py-[90px] overflow-hidden">
       <Image
         className="absolute top-[65px] left-[-60px]"
         width={476}
@@ -46,6 +46,7 @@ const Hero = () => {
             delay: 30000,
           }}
           loop={true}
+
         >
           <SwiperSlide className="pb-16">
             <div className="grid md:grid-cols-[58%_40%] gap-[2%] grid-cols-1 justify-center items-center">

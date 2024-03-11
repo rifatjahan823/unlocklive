@@ -1,13 +1,12 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import logo from "../../assests/logo.png";
-import { IoIosClose, IoIosCloseCircle, IoIosSearch } from "react-icons/io";
+import { IoIosClose,  IoIosSearch } from "react-icons/io";
 import { GoHeart } from "react-icons/go";
 import { BsCartDash } from "react-icons/bs";
-import { FaRegCircleUser } from "react-icons/fa6";
+import admin from '../../assests/Admin.png'
 import { GiHamburgerMenu } from "react-icons/gi";
-import "./Navbar.css";
+import '../../app/styles/Navbar.css'
 import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -115,7 +114,7 @@ const Navbar = () => {
             {/* ---searchbar--- */}
           <div>
             <IoIosSearch className="w-[24px] h-[24px] sm:ml-0 ml-1 cursor-pointer" onClick={toggleSearch} />
-            <div className={`search-overlay ${isSearchOpen ? 'visible' : 'hidden'}`}>
+            <div className={`searchOverlay ${isSearchOpen ? 'visible' : 'hidden'}`}>
                 <div className="flex  items-center px-4 py-2">
                     <input type="text" placeholder="Search..." className="md:w-6/12 w-full mr-2 p-2 border border-gray-300 rounded-md md:ml-[25%]" />
                     <IoIosClose className="w-[30px] h-[30px] cursor-pointer" onClick={toggleSearch} />
@@ -141,7 +140,7 @@ const Navbar = () => {
               </span>
             </div>
             <div className="flex items-center">
-              <FaRegCircleUser className="md:mr-[15px] md:ml-[100px] ml-4 mr-2 sm:text-[30px] text-[20px]" />
+              < Image src={admin} className="md:mr-[15px] md:ml-[100px] ml-4 mr-2 sm:w-[30px] w-[20px]" />
               <p className="text-[#270A05] sm:text-[16px] text-[14px] font-ValueSansMedium ">Sign in</p>
             </div>
           </div>

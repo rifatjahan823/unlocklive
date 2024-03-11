@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import './Footer.css';
+import  '../../app/styles/Footer.css'
 import logo from '../../assests/footer-logo.png'
 import Link from 'next/link';
 import { FaFacebookF } from "react-icons/fa";
@@ -10,7 +10,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="">
+        <footer >
             <div className="mx-auto xl:pl-[277px] xl:pr-[133px] sm:px-16 px-6">
                 <div className='flex items-center justify-between flex-wrap gap-8'>
                     <Image src={logo} alt="" srcset="" />

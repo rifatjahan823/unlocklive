@@ -1,13 +1,12 @@
-
-.recipes_section.swiper-pagination-fraction, .recipes_section .swiper-pagination-custom, .recipes_section .swiper-horizontal > .swiper-pagination-bullets, .recipes_section.swiper-pagination-bullets
-.recipes_section .swiper-pagination-horizontal{
+.recipesSection .swiper-pagination-fraction, .recipesSection .swiper-pagination-custom, .recipesSection .swiper-horizontal > .swiper-pagination-bullets, .recipesSection.swiper-pagination-bullets
+.recipesSection .swiper-pagination-horizontal{
     bottom: var(--swiper-pagination-bottom, 8px);
     top: var(--swiper-pagination-top, auto);
     left: 0;
     width: 100px;
 }
 
-  .recipes_section .swiper-button-prev, .swiper-button-next {
+  .recipesSection .swiper-button-prev, .swiper-button-next {
     background-repeat: no-repeat;
     position: absolute;
     top: 95%;
@@ -16,22 +15,22 @@
     margin-top:'';
     color:'';
   }
-  .recipes_section .swiper-button-prev{
+  .recipesSection .swiper-button-prev{
     background-image: url('../../assests/Left\ Carousel.png');
 left: 0;
   }
-  .recipes_section  .swiper-button-next {
+  .recipesSection  .swiper-button-next {
     background-image: url('../../assests/Right\ Carousel.png');
    left: 70px;
   }
-  .recipes_section .swiper-button-prev::after, .swiper-rtl .swiper-button-next::after {
+  .recipesSection .swiper-button-prev::after, .swiper-rtl .swiper-button-next::after {
     content: '';
   }
-  .recipes_section .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+  .recipesSection .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
     content: '';
   } 
 
-  .img_container {
+  .imgContainer {
     position: relative;
  
   }
@@ -56,7 +55,7 @@ left: 0;
 
   }
   
-  .img_container:hover .overlay {
+  .imgContainer:hover .overlay {
     height: 100%;
     margin-top: 10px;
   }
@@ -80,5 +79,15 @@ left: 0;
     .text {
       font-size: 11px;
     
+    }
+  }
+  @media screen and (max-width:1024px) {
+    .recipesSection .swiper-button-prev{
+      background-image: url('../../assests/Left\ Carousel.png');
+  left: 45px;
+    }
+    .recipesSection  .swiper-button-next {
+      background-image: url('../../assests/Right\ Carousel.png');
+     left: 130px;
     }
   }

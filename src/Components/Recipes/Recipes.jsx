@@ -7,25 +7,26 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./Recipes.css";
+import '../../app/styles/Recipes.css'
 import Image from "next/image";
 import slider1 from "../../assests/recipesSlide-1.png";
 import slider3 from "../../assests/recipesSlide-3.png";
 
 const Recipes = () => {
   return (
-    <div className="bg-[#FFFAF2] py-[100px] relative recipes_section ">
+    <div className="recipesSection bg-[#FFFAF2] py-[100px] relative ">
       <div className=" lg:pl-[220px] md:px-0 sm:px-16 px-6">
         <Swiper
           modules={[Autoplay, Navigation]}
           centeredSlides={true}
           navigation={{ clickable: true }}
+          spaceBetween={30}
           autoplay={{
             delay: 3000,
           }}
           loop={true}
         >
-          <SwiperSlide className="pb-16 overflow-hidden">
+          <SwiperSlide className="pb-16 overflow-hidden lg:px-0 pl-8">
             <div className="grid lg:grid-cols-[40%_60%] grid-cols-1 items-center justify-center">
               <div className="2xl:pr-8">
                 <div className="flex items-center">
@@ -45,38 +46,38 @@ const Recipes = () => {
                 </p>
                 <p className="text-[#53565C] text-[16px] font-ValueSansRegular">
                   There are many variations of passages of Lorem Ipsum form any
-                  injected humour, or randomised words which don't look slightly
+                  injected humour, or randomised words which dont look slightly
                   believable.
                 </p>
               </div>
               <div className="flex justify-between sm:gap-5 gap-3 md:pl-9 pl-3 lg:mt-0 mt-5">
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image src={slider1} alt="" srcset="" className="image" />
-                  <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                  <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
                   </div>
                 </div>
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image src={slider1} alt="" srcset="" className="image" />
-                  <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                  <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
                   </div>
                 </div>
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image
                     src={slider3}
                     alt=""
                     srcset=""
-                    className="h-[345px] image"
+                     className="image"
                   />
-                   <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                   <div  className="overlay">
+                    <div className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
@@ -85,7 +86,7 @@ const Recipes = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="pb-16 overflow-hidden">
+          <SwiperSlide className="pb-16 overflow-hidden lg:px-0 pl-8">
             <div className="grid lg:grid-cols-[40%_60%] grid-cols-1 items-center justify-center">
               <div className="2xl:pr-8">
                 <div className="flex items-center">
@@ -105,38 +106,38 @@ const Recipes = () => {
                 </p>
                 <p className="text-[#53565C] text-[16px] font-ValueSansRegular">
                   There are many variations of passages of Lorem Ipsum form any
-                  injected humour, or randomised words which don't look slightly
+                  injected humour, or randomised words which dont look slightly
                   believable.
                 </p>
               </div>
               <div className="flex justify-between sm:gap-5 gap-3 md:pl-9 pl-3 lg:mt-0 mt-5">
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image src={slider1} alt="" srcset="" className="image" />
-                  <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                  <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
                   </div>
                 </div>
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image src={slider1} alt="" srcset="" className="image" />
-                  <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                  <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
                   </div>
                 </div>
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image
                     src={slider3}
                     alt=""
                     srcset=""
-                    className="h-[345px] image"
+                     className="image"
                   />
-                   <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                   <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
@@ -145,7 +146,7 @@ const Recipes = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="pb-16 overflow-hidden">
+          <SwiperSlide className="pb-16 overflow-hidden lg:px-0 pl-8">
             <div className="grid lg:grid-cols-[40%_60%] grid-cols-1 items-center justify-center">
               <div className="2xl:pr-8">
                 <div className="flex items-center">
@@ -165,38 +166,38 @@ const Recipes = () => {
                 </p>
                 <p className="text-[#53565C] text-[16px] font-ValueSansRegular">
                   There are many variations of passages of Lorem Ipsum form any
-                  injected humour, or randomised words which don't look slightly
+                  injected humour, or randomised words which dont look slightly
                   believable.
                 </p>
               </div>
               <div className="flex justify-between sm:gap-5 gap-3 md:pl-9 pl-3 lg:mt-0 mt-5">
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image src={slider1} alt="" srcset="" className="image" />
-                  <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                  <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
                   </div>
                 </div>
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image src={slider1} alt="" srcset="" className="image" />
-                  <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                  <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
                   </div>
                 </div>
-                <div className="img_container">
+                <div className="imgContainer">
                   <Image
                     src={slider3}
                     alt=""
                     srcset=""
-                    className="h-[345px] image"
+                     className="image"
                   />
-                   <div className="overlay">
-                    <div className="text font-ValueSansRegular">
+                   <div  className="overlay">
+                    <div  className="text font-ValueSansRegular ">
                      <ul className="list-disc"><li className="list-disc"> Pita bread or wraps</li>
                       <li>Toppings: tomatoes, tahini sauce, etc.</li></ul>
                       </div>
